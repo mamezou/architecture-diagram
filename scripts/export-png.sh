@@ -38,7 +38,7 @@ case "$resolved_font" in
     ;;
 esac
 
-missing_font_styles=$(grep 'style="' "$input_path" | grep -vc "style=\"fontFamily=$diagram_font;" || true)
+missing_font_styles=$(grep 'style="' "$input_path" | grep -Evc "fontFamily=${diagram_font}[;\"]" || true)
 if [ "$missing_font_styles" -ne 0 ]; then
   echo "Found $missing_font_styles styles without fontFamily=$diagram_font in $input_path." >&2
   exit 1

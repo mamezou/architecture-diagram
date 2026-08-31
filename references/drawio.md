@@ -9,7 +9,8 @@
 - URLエンコード方式を使う: `image=data:image/svg+xml,<URLエンコードしたSVG>`
 - Base64方式(`data:image/svg+xml;base64,...`)はdraw.ioで表示されない
 - Python: `urllib.parse.quote(svg_text)` でエンコードし、styleの `image=` に指定する
-- AWSはdraw.io内蔵の `mxgraph.aws4.*` があるので埋め込み不要
+- AWSは `mxgraph.aws4.*` 図形、Azureは `image=img/lib/azure2/<カテゴリ>/<名前>.svg` の
+  内蔵アイコンがあるので、通常は埋め込み不要
 
 ## フォント
 
