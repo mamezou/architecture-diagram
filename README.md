@@ -1,7 +1,7 @@
 # architecture-diagram
 
-> 2026-09-13 に `mamezou/mamezou-plugins` へ統合しました。導入は Claude Code で
-> `/plugin marketplace add mamezou/mamezou-plugins` → `/plugin install architecture-diagram@mamezou-plugins`。
+> 2026-09-13 に `mamezou/mamezou-claude-plugins` へ統合しました。導入は Claude Code で
+> `/plugin marketplace add mamezou/mamezou-claude-plugins` → `/plugin install architecture-diagram@mamezou-claude-plugins`。
 > 本リポジトリは archive にし、更新しません。
 
 判断に使えるクラウド構成図を draw.io で描くための Agent Skill。
