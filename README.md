@@ -1,5 +1,9 @@
 # architecture-diagram
 
+> 2026-09-13 に `mamezou/mamezou-plugins` へ統合しました。導入は Claude Code で
+> `/plugin marketplace add mamezou/mamezou-plugins` → `/plugin install architecture-diagram@mamezou-plugins`。
+> 本リポジトリは archive にし、更新しません。
+
 判断に使えるクラウド構成図を draw.io で描くための Agent Skill。
 誰が何を判断する図かを先に決め、実在する境界と公式アイコンで描き、AI 生成にありがちな装飾
 (パステル背景、角丸カードの反復、色帯付き注記、造語ラベル、区別のない矢印、公式アイコンの着色)を排する。
